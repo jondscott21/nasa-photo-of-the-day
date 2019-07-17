@@ -1,23 +1,19 @@
 import React from 'react';
 import YouTube from 'react-youtube';
 
-function Card(props) {
-    const videoUrl = "https://www.youtube.com/embed/xc1SzgGhMKc?start=850".substring(30);
-    console.log(videoUrl);
-    const opts = {
-        height: '390',
-        width: '640',
-        playerVars: { // https://developers.google.com/youtube/player_parameters
-          autoplay: 1
-        }
-      };
+function Card({title, date, url, explanation}) {
+    const videoUrl = url.substring(30);
     return (
         <div>
-            <YouTube videoId={videoUrl} opts={opts} />
-            <h2>props.title</h2>
-            <p>props.date</p>
+            <iframe width="640" height="390"
+                src={url}>
+            </iframe>
+            <h2>{title}</h2>
+            <p>{date}</p>
+            <p>{explanation}</p>
         </div>
     );
+    
 }
 
 export default Card;
