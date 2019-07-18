@@ -28,7 +28,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Card title={title} date={date} setDate={setDate} url={url} explanation={explanation} mediaType={mediaType} />
+      <CardHolder title={title} date={date} setDate={setDate} url={url} explanation={explanation} mediaType={mediaType} />
       
     </div>
   );

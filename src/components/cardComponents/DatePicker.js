@@ -1,6 +1,6 @@
 import React from 'react';
 
-function DatePicker() {
+function DatePicker({date, setDate}) {
     return (
         <div>
             <input type="date" value={date} onChange={ e => setDate(e.target.value)}></input>

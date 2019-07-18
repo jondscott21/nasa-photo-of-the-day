@@ -11,7 +11,7 @@ function CardHolder({title, date, setDate, url, explanation, mediaType}) {
     // }
     return (
         <div>
-            <DatePicker />
+            <DatePicker date={date} setDate={setDate} />
             <Media url={url} mediaType={mediaType} />
             <h2>{title}</h2>
             <p>{explanation}</p>
