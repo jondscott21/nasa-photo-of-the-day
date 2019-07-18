@@ -3,6 +3,7 @@ import "./App.css";
 import axios from 'axios';
 import Header from './components/Header';
 import CardHolder from './components/CardHolder';
+import "semantic-ui-css/semantic.min.css";
 
 
 function App() {
