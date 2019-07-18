@@ -7037,6 +7037,13 @@ react-error-overlay@^5.1.6:
   version "5.1.6"
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-5.1.6.tgz#0cd73407c5d141f9638ae1e0c63e7b2bf7e9929d"
 
+react-google-font-loader@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/react-google-font-loader/-/react-google-font-loader-1.0.5.tgz#83b3c6c01a97acbf4da0752a2fb2c21c1c413778"
+  integrity sha512-Cpr3C96lBIQoXgmVwSo52Uc9oMnLOYuqArmPw63CuttBc27R0YpTeDINR39jPM/d5WofIbGpQFi66K4ts9G6Lg==
+  dependencies:
+    prop-types "^15.6.2"
+
 react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.4:
   version "16.8.6"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.6.tgz#5bbc1e2d29141c9fbdfed456343fe2bc430a6a16"
